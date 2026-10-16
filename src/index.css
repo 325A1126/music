@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root {
+  --font-rock: 'Dela Gothic One', sans-serif;
+  --font-punch: 'Oswald', sans-serif;
+  --font-body: 'Noto Sans JP', sans-serif;
+}
+
+.font-rock {
+  font-family: 'Dela Gothic One', sans-serif;
+}
+
+.font-punch {
+  font-family: 'Oswald', sans-serif;
+}
+
+.font-body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* Rock Texture & High Voltage Styling */
+.rock-glow-red {
+  box-shadow: 0 0 35px -5px rgba(230, 0, 38, 0.55), 0 0 15px -2px rgba(255, 23, 68, 0.4);
+}
+
+.rock-glow-white {
+  box-shadow: 0 0 25px -4px rgba(255, 255, 255, 0.35);
+}
+
+.rock-text-stroke {
+  -webkit-text-stroke: 1.5px #ff1744;
+  color: transparent;
+}
+
+.rock-text-stroke-white {
+  -webkit-text-stroke: 1.5px #ffffff;
+  color: transparent;
+}
+
+/* Textured diagonal caution / amp grille pattern */
+.bg-amp-grille {
+  background-image: radial-gradient(#1f1f23 1.5px, transparent 1.5px), radial-gradient(#27272a 1.5px, #0c0c0e 1.5px);
+  background-size: 8px 8px;
+  background-position: 0 0, 4px 4px;
+}
+
+.bg-danger-stripe {
+  background: repeating-linear-gradient(
+    -45deg,
+    #18181b,
+    #18181b 12px,
+    #ff1744 12px,
+    #ff1744 24px
+  );
+}
+
+/* Custom crisp dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff1744;
+}

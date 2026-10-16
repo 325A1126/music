@@ -1,0 +1,6 @@
+{
+  "name": "RECLAIM THE DAY - High Voltage Rock Stage",
+  "description": "黒・赤・白を基調とした超高熱量ロックステージ＆インタラクティブ・オーディオプレイヤー。生々しい歪みギター、リアルタイム波形ビジュアライザー、同期歌詞、ライブアンプコントロールを搭載。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
